@@ -1,0 +1,35 @@
+public class PostfixEv {
+
+	public static int evaluate(String s) {
+
+		String[] splitted = s.split(" ");
+
+		ArrayStack stack = new ArrayStack(splitted.length);
+		
+		int op1, op2;
+
+		for(int i = 0; i<splitted.length; i++) {
+
+			switch(splitted[i]) {
+
+			case "+" : op2 = stack.pop(); op1= stack.pop(); stack.push(op1 + op2);break;
+			case "-" : op2 = stack.pop(); op1= stack.pop(); stack.push(op1 - op2);break;
+			case "*" : op2 = stack.pop(); op1= stack.pop(); stack.push(op1 * op2);break;
+			case "/" : op2 = stack.pop(); op1= stack.pop(); stack.push(op1 / op2);break;
+//			default : stack.push(new Integer(splitted[i]));
+			default : stack.push(Integer.parseInt(splitted[i]));
+
+			}
+
+		}
+		
+		return stack.pop();
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

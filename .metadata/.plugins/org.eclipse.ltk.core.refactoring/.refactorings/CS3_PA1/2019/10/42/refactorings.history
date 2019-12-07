@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;LinearArray.java&apos; to &apos;CS3_Lab/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;CS3_PA1&apos;&#x0D;&#x0A;- Destination element: &apos;CS3_Lab/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;LinearArray.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=CS3_Lab/src&lt;" element1="LinearArray.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1571004403874" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+public class Pop2 {
+	
+	public static boolean isPalindrome(LinkList l) {
+		
+		return false;
+	}
+	
+	public static void main (String[] args) {
+		LinkList l = new LinkList();
+	}
+}

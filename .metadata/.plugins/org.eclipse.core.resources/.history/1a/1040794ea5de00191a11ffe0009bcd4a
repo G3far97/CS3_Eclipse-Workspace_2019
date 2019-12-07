@@ -1,0 +1,34 @@
+
+public class LinearArray {
+	
+	int[] array;
+	int itemCount;
+	
+	public LinearArray(int s) {
+		
+		this.array = new int [s];
+		
+	}
+	
+	public void insertLast(int x) {
+		
+		this.array[this.itemCount] = x;
+		this.itemCount++;
+	
+	}
+	
+	public void insertFirst(int x) {
+		
+		for(int i = this.itemCount-1; i>=0;i--) {
+			
+			this.array[i+1] = this.array[i];
+			
+		}
+		
+		this.array[0] = x;
+		
+	}
+	
+	
+	
+}

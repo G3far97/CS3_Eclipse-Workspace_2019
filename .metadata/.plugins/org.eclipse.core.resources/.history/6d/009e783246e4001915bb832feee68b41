@@ -1,0 +1,21 @@
+
+public class PostfixEv {
+
+	public static int evaluate(String s) {
+
+		ArrayStack stack = new ArrayStack((s.split("")).length);
+
+		for(int i = 0; i<(s.split(" ")).length; i++) {
+
+
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
